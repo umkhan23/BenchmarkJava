@@ -23,8 +23,8 @@ jobs:
         polaris_serverUrl: ${{ secrets.POLARIS_SERVERURL }}
         polaris_accessToken: ${{ secrets.POLARIS_ACCESSTOKEN }}
         polaris_application_name: "UK-Demo"
-        polaris_project_name: "Benchmark Java"
-        polaris_assessment_types: "SCA,SAST"
+        polaris_project_name: "BenchmarkJava"
+        polaris_assessment_types: "SCA"
           ### Uncomment below configuration if Synopsys Bridge diagnostic files needs to be uploaded
           #include_diagnostics: true
           ### PULL REQUEST COMMENTS: Uncomment below to enable
